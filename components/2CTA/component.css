@@ -79,12 +79,10 @@ article:last-child {
 }
 
 div {
-    border-color: greenyellow;
     margin-top: 10px;
 }
 
 div:last-child {
-    border-color: greenyellow;
     margin-top: 62px;
 }
 
