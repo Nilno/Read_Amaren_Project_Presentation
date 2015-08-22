@@ -38,3 +38,39 @@ h4 {
     border: none;
     margin-left: 20px;
 }
+
+.num {
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 70px;
+    border: none;
+    margin: 8px 21px 20px 0px;
+    float: left;
+}
+
+p {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+    padding: 5px;
+    color: #777777;
+}
+
+article {
+    width: calc(30% - 1rem);
+    padding: 1rem;
+    margin: 0 1rem;
+    float: left;
+}
+
+section {
+    width: 100%;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
