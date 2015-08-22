@@ -10,3 +10,92 @@ body {
     padding: 0px;
     box-sizing: border-box;
 }
+
+h3 {
+    font-family: "PT Sans", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1%;
+    margin-bottom: 4%;
+    color: #F9F9F9;
+}
+
+h4 {
+    font-family: "PT Sans", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 28px;
+    text-align: center;
+    padding: 3%;
+    color: #FBEA1F;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.lorem {
+    font-size: 15px;
+}
+
+p {
+    color: #FFF;
+    text-align: center;
+}
+
+section {
+    position: relative;
+    text-align: center;
+    width: 1000px;
+    height: 450px;
+}
+
+#feature {
+    padding-top: 20px;
+    background-image: url("../../images/roof.png");
+    background-repeat: no-repeat;
+}
+
+article {
+    width: 238px;
+    text-align: center;
+    line-height: 20px;
+    margin-left: 40px;
+    display: inline-block;
+}
+
+article:last-child {
+    float: right;
+    width: 260px;
+    text-align: center;
+    line-height: 20px;
+    margin-right: 95px;
+
+}
+
+.icon {
+    background-repeat: no-repeat;
+    height: 70px;
+    border: none;
+    margin: 8px 21px 20px 0px;
+}
+
+a {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #FBEA1F;
+    text-transform: uppercase;
+    margin-top: 14px;
+}
+
+a:hover {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: #666666;
+}
