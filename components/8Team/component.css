@@ -1,0 +1,64 @@
+/* 
+================================================================================
+COMPONENT 8 STYLESHEET Amaren Read
+================================================================================ */
+
+
+h2 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1.3em;
+    text-align: center;
+    padding: 1%;
+}
+
+h3 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: left;
+    padding: 1%;
+}
+
+p {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+    padding: 1%;
+    color: #090808;
+}
+
+
+.compos {
+    padding-bottom: 1%;
+    width: 100%;
+    background-color: #FFF;
+    margin-bottom: 3%;
+    clear: both;
+}
+
+.compos img {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 3%;
+    clear: both;
+}
+
+button {
+    width: 160px;
+    height: 48px;
+    text-align: center;
+    margin: 2% 0% 1% 42%;
+    background-color: #1B5334;
+    text-decoration: none;
+}
+
+button a{
+    color: #FFF;
+    text-align: center;
+    font-size: 1.3em;
+    display: inline-block;
+    text-decoration: none;
+}

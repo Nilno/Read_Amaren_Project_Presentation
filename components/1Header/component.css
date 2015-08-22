@@ -1,0 +1,51 @@
+/* 
+================================================================================
+COMPONENT 1 STYLESHEET Amaren Read
+================================================================================ */
+
+body {
+    font-size: 12px;
+    font-family: sans-serif;
+    line-height: 95px;
+    color: #ffffff;
+    background-color: #FFF;
+}
+
+header, nav ul {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header::after, nav ul::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav {
+    background-color: #FFF;
+    float: right;
+}
+
+nav li {
+    list-style-type: none;
+    float: left;
+}
+
+.viewing a {
+    color: #99bf38;
+}
+
+nav li a {
+    font-family: "Helvetica Neue", Helvetica, Arial, Tahoma, sans-serif;
+    font-weight: 700;
+    color: #000;
+    display: block;
+    padding: 15px;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    background: url('../../images/Quamax.png') no-repeat left center;
+}

@@ -1,0 +1,126 @@
+/* 
+================================================================================
+WSP COMPONENT LIBRARY STYLESHEET
+================================================================================ */
+
+body {
+    background-color: #EEEEDB;
+}
+
+.header {
+    height: 211px;
+    background-color: #000;
+    width: 100%;
+}
+
+.logo {
+    width: 200px;
+    margin-top: 0px;
+    margin-bottom: -132px;
+    margin-left: 80px;
+}
+
+h1{
+    color: #FFF;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    padding: 1%;
+}
+
+h2 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1.3em;
+    text-align: center;
+    padding: 1%;
+}
+
+h3 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: left;
+    padding: 1%;
+}
+
+#container {
+    margin: 2% auto;
+    border: 1px groove #000;
+    width:80%;
+}
+
+.info {
+    border: 1px groove #000;
+    color: #000;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    width: 70%;
+    display: inline-block;
+    margin: 2%;
+    padding: 1%;
+    float: right;
+}
+
+#biograph img {
+    width: 20%;
+    border-radius: 50%;
+    border: 1px groove #000;
+    margin: 3%;
+    float: left;
+}
+
+p {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+    padding: 1%;
+    color: #090808;
+}
+
+
+.compos {
+    padding-bottom: 1%;
+    width: 100%;
+    background-color: #FFF;
+    margin-bottom: 3%;
+    clear: both;
+}
+
+.compos img {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 3%;
+    clear: both;
+}
+
+button {
+    width: 160px;
+    height: 48px;
+    text-align: center;
+    margin: 2% 0% 1% 42%;
+    background-color: #1B5334;
+    text-decoration: none;
+}
+
+button a{
+    color: #FFF;
+    text-align: center;
+    font-size: 1.3em;
+    display: inline-block;
+    text-decoration: none;
+}
+
+footer {
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+    padding: 1% 0%;
+    margin: 1% 0%;
+    border-radius: 5px;
+    border-top: 2px groove #000;
+    clear: both;
+}
