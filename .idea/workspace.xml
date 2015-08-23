@@ -57,8 +57,8 @@
       <file leaf-file-name="component.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/components/7Login:Registration/component.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.41379312" vertical-offset="285" max-vertical-offset="1830">
-              <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.7586207" vertical-offset="780" max-vertical-offset="1830">
+              <caret line="74" column="20" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -417,8 +417,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/components/7Login:Registration/component.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41379312" vertical-offset="285" max-vertical-offset="1830">
-          <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.7586207" vertical-offset="780" max-vertical-offset="1830">
+          <caret line="74" column="20" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="20" />
           <folding />
         </state>
       </provider>
