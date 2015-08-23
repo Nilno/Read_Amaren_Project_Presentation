@@ -4,42 +4,82 @@ COMPONENT 7 STYLESHEET Amaren Read
 ================================================================================ */
 
 body {
-    color: #FFF;
+    color: #9C9E99;
     font-size: 14px;
+    font-family: 'Roboto', sans-serif;
     margin: 0px;
     padding: 0px;
-    background-color: #9c9e99;
+    background-color: #9C9E99;
     box-sizing: border-box;
 }
 
 h2 {
     font-size: 18px;
     margin: 0 0 5px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.3em;
     color: #696B67;
 }
 
 h4 {
-    color: #696B67;
+    color: #9C9E99;
+    padding: 10px 0 10px 0;
 }
 
-input[type="text"] {
-    font-size: 14px;
-    padding: 5px;
-    border: 1px solid #666666;
+.icon {
+    background-repeat: no-repeat;
+    height: 43px;
+    border: none;
+    margin: 8px 21px 20px 0px;
+    float: left;
 }
 
 .s1 {
     float: left;
+    border: 1px solid #777777;
+    padding: 27px;
+    background-color: #FFF;
+    width: 44%;
+    margin: 20px;
+}
+
+.s1 p {
+    color: #9C9E99;
+    font-size: 20px;
+    border-bottom: 1px solid #E5E5E5;
+    border-top: 1px solid #E5E5E5;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 15px 0px 15px 0px;
 }
 
 .s2 {
     border: 1px solid #777777;
     padding: 27px;
     background-color: #FFF;
+    width: 36%;
     float: right;
-    margin: 20px;
+    margin: 20px 104px 0 0;
+}
+
+input[type="text"] {
+    width: 90%;
+    font-size: 14px;
+    padding: 5px;
+    border: 1px solid #666666;
+}
+
+form {
+    border-top: 1px solid #E5E5E5;
+    padding: 15px 0px 15px 0px;
+    margin-top: 15px;
+}
+
+strong {
+    font-size: 17px;
+    font-weight: normal;
+    font-style: italic;
+    text-align: left;
 }
 
 button {
@@ -51,10 +91,3 @@ button {
     text-decoration: none;
 }
 
-button a{
-    color: #fff;
-    background: #8ac249;
-    text-align: center;
-    font-size: 1.3em;
-    text-decoration: none;
-}
