@@ -3,61 +3,58 @@
 COMPONENT 7 STYLESHEET Amaren Read
 ================================================================================ */
 
+body {
+    color: #FFF;
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px;
+    background-color: #9c9e99;
+    box-sizing: border-box;
+}
+
 h2 {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: bold;
-    font-size: 1.3em;
-    text-align: center;
-    padding: 1%;
+    font-size: 18px;
+    margin: 0 0 5px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.3em;
+    color: #696B67;
 }
 
-h3 {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: bold;
-    font-size: 1.2em;
-    text-align: left;
-    padding: 1%;
+h4 {
+    color: #696B67;
 }
 
-p {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 1em;
-    font-weight: 500;
-    padding: 1%;
-    color: #090808;
+input[type="text"] {
+    font-size: 14px;
+    padding: 5px;
+    border: 1px solid #666666;
 }
 
+.s1 {
+    float: left;
+}
 
-.compos {
-    padding-bottom: 1%;
-    width: 100%;
+.s2 {
+    border: 1px solid #777777;
+    padding: 27px;
     background-color: #FFF;
-    margin-bottom: 3%;
-    clear: both;
-}
-
-.compos img {
-    padding-top: 1%;
-    padding-bottom: 1%;
-    width: 100%;
-    background-color: white;
-    margin-bottom: 3%;
-    clear: both;
+    float: right;
+    margin: 20px;
 }
 
 button {
-    width: 160px;
+    width: 50%;
     height: 48px;
     text-align: center;
-    margin: 2% 0% 1% 42%;
-    background-color: #1B5334;
+    margin: 2% 0% 1% 0%;
+    background-color: #8ac249;
     text-decoration: none;
 }
 
 button a{
-    color: #FFF;
+    color: #fff;
+    background: #8ac249;
     text-align: center;
     font-size: 1.3em;
-    display: inline-block;
     text-decoration: none;
 }
