@@ -9,8 +9,9 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0px;
     padding: 0px;
-    background-color: #9C9E99;
+    background-color: #F6F6F3;
     box-sizing: border-box;
+    clear: both;
 }
 
 h2 {
@@ -28,7 +29,7 @@ h4 {
 
 .icon {
     background-repeat: no-repeat;
-    height: 43px;
+    height: 45px;
     border: none;
     margin: 8px 21px 20px 0px;
     float: left;
@@ -39,18 +40,30 @@ h4 {
     border: 1px solid #777777;
     padding: 27px;
     background-color: #FFF;
-    width: 44%;
+    width: 35%;
+    height: 275px;
     margin: 20px;
 }
 
 .s1 p {
     color: #9C9E99;
-    font-size: 20px;
+    font-size: 18px;
     border-bottom: 1px solid #E5E5E5;
     border-top: 1px solid #E5E5E5;
     margin-top: 15px;
     margin-bottom: 15px;
     padding: 15px 0px 15px 0px;
+}
+
+.s1 a {
+    width: 50%;
+    height: 48px;
+    text-align: center;
+    font-size: 16px;
+    color: #FFF;
+    margin: 2% 0% 1% 0%;
+    padding: 20px;
+    background-color: #CCDB38;
 }
 
 .s2 {
@@ -60,6 +73,14 @@ h4 {
     width: 36%;
     float: right;
     margin: 20px 104px 0 0;
+}
+
+.s2 a {
+    font-size: 16px;
+    margin: 18px 0 9px 0;
+    color: #8AC249;
+    display: inline-block;
+    text-decoration: none;
 }
 
 input[type="text"] {
@@ -83,11 +104,13 @@ strong {
 }
 
 button {
-    width: 50%;
+    width: 21%;
     height: 48px;
     text-align: center;
+    font-size: 18px;
+    color: #FFF;
     margin: 2% 0% 1% 0%;
-    background-color: #8ac249;
+    background-color: #CCDB38;
     text-decoration: none;
 }
 
