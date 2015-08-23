@@ -86,10 +86,11 @@ textarea {
 button {
     color: #FFF;
     font-family: 'Roboto',sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bolder;
     width: 160px;
     text-align: center;
+    text-transform: uppercase;
     height: 53px;
     margin: 0 15px 0 0;
     padding: 0 56px 0 42px;
@@ -97,4 +98,15 @@ button {
     border: none;
     background: #ED3A12 url(../../images/arrow.png) no-repeat 83% 49%;
     text-decoration: none;
+}
+
+button:hover{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #66BB50;
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.4s;
 }
