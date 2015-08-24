@@ -4,7 +4,6 @@ COMPONENT 6 STYLESHEET Amaren Read
 ================================================================================ */
 body {
     color: #9C9E99;
-
     font-family: 'Roboto', sans-serif;
     margin: 0px;
     padding: 0px;
@@ -57,7 +56,9 @@ strong {
 
 form {
     width: 600px;
-    margin: -354px 0 0 600px;
+    position: absolute;
+    top: 11.5%;
+    right: 18%;
 }
 
 input[type="text"] {
