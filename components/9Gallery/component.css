@@ -4,13 +4,12 @@ COMPONENT 9 STYLESHEET Amaren Read
 ================================================================================ */
 
 body {
-    color: #9C9E99;
+    color: #FFF;
     font-family: 'Play', sans-serif;
     margin: 0px;
     padding: 0px;
     background-color: #FFF;
     box-sizing: border-box;
-    clear: both;
 }
 
 h2 {
@@ -23,12 +22,14 @@ h2 {
     border-bottom: 1px solid #777777;
     width: 500px;
     color: #434343;
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 1%;
 }
 
 h4 {
-    color: #101010;
+    color: #FFF;
+    font-family: 'Play', sans-serif;
+    text-transform: uppercase;
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
@@ -40,14 +41,13 @@ p {
     font-style: normal;
     font-weight: 100;
     margin: 0 0 18px 0;
-    color: #777777;
+    color: #FFF;
 }
 
 section {
     position: relative;
     text-align: center;
     width: 1000px;
-    height: 450px;
     margin: 30px;
 }
 
@@ -56,48 +56,64 @@ section {
     margin: 0 auto;
 }
 
-
-
 .first {
-    padding: 1rem;
-    width: 570px;
+    position: absolute;
+    top: 14%;
+    right: 53%;
     background-image: url("../../images/corn.png");
     background-size: 600px 345px;
     background-repeat: no-repeat;
     text-align: center;
-    margin: 0 1rem;
+    font-family: 'Play', sans-serif;
+    width: 580px;
+    height: 270px;
+    padding: 2rem;
 }
 
 .second {
-    padding-top: 1rem;
-    width: 570px;
+    position: absolute;
+    top: 14%;
+    right: -8%;
     background-image: url("../../images/hands.png");
-    background-size: 600px 345px;
+    background-size: 600px 270px;
     background-repeat: no-repeat;
+    font-family: 'Play', sans-serif;
+    width: 580px;
+    height: 270px;
+    padding: 2rem;
 }
 
 .third {
-    padding-top: 1rem;
-    width: 570px;
+    position: absolute;
+    top: 100%;
+    right: 53%;
     background-image: url("../../images/guy.png");
-    background-size: 600px 345px;
+    background-size: 600px 270px;
     background-repeat: no-repeat;
+    font-family: 'Play', sans-serif;
+    width: 580px;
+    height: 270px;
+    padding: 2rem;
+
 }
 
 .fourth {
-    padding-top: 1rem;
-    width: 570px;
     background-image: url("../../images/field.png");
-    background-size: 600px 345px;
+    background-size: 600px 270px;
     background-repeat: no-repeat;
+    font-family: 'Play', sans-serif;
+    width: 580px;
+    height: 270px;
+    padding: 2rem;
 }
 
 a {
     font-family: 'Play', sans-serif;
     font-weight: 700;
     font-style: normal;
-    color: #000;
+    color: #FFF;
     padding: 50px;
+    margin-top: 20px;
 }
 
 a:hover {
