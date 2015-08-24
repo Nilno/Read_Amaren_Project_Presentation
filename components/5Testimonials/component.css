@@ -3,62 +3,109 @@
 COMPONENT  5 STYLESHEET Amaren Read
 ================================================================================ */
 
+body {
+    color: #4C4C4C;
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #FFF;
+    box-sizing: border-box;
+}
 
-h2 {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: bold;
-    font-size: 1.3em;
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    font-size: 24px;
     text-align: center;
     padding: 1%;
 }
 
-h3 {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: bold;
-    font-size: 1.2em;
+h4 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    line-height: 36px;
+    font-size: 16px;
     text-align: left;
-    padding: 1%;
+    width: 686px;
+    display: block;
+
+}
+
+.center {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    width: 686px;
+    margin: 8px auto;
 }
 
 p {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 1em;
     font-weight: 500;
+    line-height: 22px;
     padding: 1%;
     color: #090808;
 }
 
-
-.compos {
-    padding-bottom: 1%;
-    width: 100%;
-    background-color: #FFF;
-    margin-bottom: 3%;
-    clear: both;
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
-.compos img {
-    padding-top: 1%;
-    padding-bottom: 1%;
-    width: 100%;
-    background-color: white;
-    margin-bottom: 3%;
-    clear: both;
+img {
+    position: absolute;
+    top: 18%;
+    left: 3%;
+    height: 100px;
+    border: none;
 }
 
-button {
-    width: 160px;
-    height: 48px;
-    text-align: center;
-    margin: 2% 0% 1% 42%;
-    background-color: #1B5334;
-    text-decoration: none;
+q {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    color: #090808;
 }
 
-button a{
-    color: #FFF;
-    text-align: center;
-    font-size: 1.3em;
+.active {
+    background-color: #4CAF50;
+}
+
+div.active {
+    position: absolute;
+    top: 40%;
+    right: 53%;
+    border: 3px solid #777777;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
     display: inline-block;
-    text-decoration: none;
+    margin: 0 auto;
 }
+
+div:nth-of-type(2) {
+    position: absolute;
+    top: 40%;
+    right: 49%;
+    border: 3px solid #777777;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+div:nth-of-type(3) {
+    position: absolute;
+    top: 40%;
+    right: 45%;
+    border: 3px solid #777777;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin: 0 auto;
+}
+
