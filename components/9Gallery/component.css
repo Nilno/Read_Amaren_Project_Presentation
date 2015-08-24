@@ -23,7 +23,7 @@ h2 {
     width: 500px;
     color: #434343;
     margin: 20px auto;
-    padding: 1%;
+    padding: 2%;
 }
 
 h4 {
@@ -44,13 +44,6 @@ p {
     color: #FFF;
 }
 
-section {
-    position: relative;
-    text-align: center;
-    width: 1000px;
-    margin: 30px;
-}
-
 .container {
     max-width: 1000px;
     margin: 0 auto;
@@ -58,8 +51,8 @@ section {
 
 .first {
     position: absolute;
-    top: 14%;
-    right: 53%;
+    top: 20%;
+    right: 51%;
     background-image: url("../../images/corn.png");
     background-size: 600px 345px;
     background-repeat: no-repeat;
@@ -72,8 +65,8 @@ section {
 
 .second {
     position: absolute;
-    top: 14%;
-    right: -8%;
+    top: 20%;
+    right: 4.5%;
     background-image: url("../../images/hands.png");
     background-size: 600px 270px;
     background-repeat: no-repeat;
@@ -85,8 +78,8 @@ section {
 
 .third {
     position: absolute;
-    top: 100%;
-    right: 53%;
+    top: 60.5%;
+    right: 51%;
     background-image: url("../../images/guy.png");
     background-size: 600px 270px;
     background-repeat: no-repeat;
@@ -97,7 +90,11 @@ section {
 
 }
 
+
 .fourth {
+    position: absolute;
+    top: 60.5%;
+    right: 4.5%;
     background-image: url("../../images/field.png");
     background-size: 600px 270px;
     background-repeat: no-repeat;
@@ -105,6 +102,7 @@ section {
     width: 580px;
     height: 270px;
     padding: 2rem;
+    margin: 0px;
 }
 
 a {
