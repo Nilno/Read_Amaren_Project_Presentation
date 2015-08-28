@@ -30,6 +30,7 @@ nav {
 nav li {
     list-style-type: none;
     float: left;
+    margin-bottom: 20px;
 }
 
 .viewing a {
@@ -48,4 +49,19 @@ header img {
     max-width: 100%;
     height: auto;
     background: url('../../images/Quamax.png') no-repeat left center;
+}
+
+a:hover {
+    color: #99BF38;
+}
+
+@media screen and (max-width: 400px) {
+    nav li a {
+        margin-top: 40px;
+    }
+
+    header img {
+        margin-top: 25px;
+    }
+
 }
