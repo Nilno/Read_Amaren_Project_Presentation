@@ -54,9 +54,7 @@ p {
 }
 
 img {
-    position: absolute;
-    top: 18%;
-    left: 3%;
+    float: left;
     height: 100px;
     border: none;
 }
@@ -73,39 +71,81 @@ q {
     background-color: #4CAF50;
 }
 
-div.active {
+nav {
     position: absolute;
     top: 40%;
-    right: 53%;
-    border: 3px solid #777777;
-    border-radius: 50%;
-    width: 15px;
-    height: 15px;
-    display: inline-block;
-    margin: 0 auto;
+    left: 43.5%;
 }
 
-div:nth-of-type(2) {
-    position: absolute;
-    top: 40%;
-    right: 49%;
-    border: 3px solid #777777;
-    border-radius: 50%;
-    width: 15px;
-    height: 15px;
-    display: inline-block;
-    margin: 0 auto;
+li {
+    padding: 0px 15px;
+    list-style: none;
+    float: left;
 }
 
-div:nth-of-type(3) {
-    position: absolute;
-    top: 40%;
-    right: 45%;
+a {
+    display: block;
+    width: 20px;
+    height: 20px;
     border: 3px solid #777777;
     border-radius: 50%;
-    width: 15px;
-    height: 15px;
-    display: inline-block;
-    margin: 0 auto;
+    text-indent: -9999px;
 }
 
+@media screen and (max-width: 400px) {
+
+    h3 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: bolder;
+        font-size: 24px;
+        text-align: center;
+        padding: 2%;
+    }
+
+    h4 {
+        font-family: "Raleway", Helvetica, Arial, sans-serif;
+        text-transform: uppercase;
+        font-size: 0.8em;
+        width: 110px;
+        padding: 3%;
+        color: #000;
+    }
+
+    .center {
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+        width: 80%;
+        margin: 8px auto;
+    }
+
+    p {
+        font-family: "Raleway", Helvetica, Arial, sans-serif;
+        font-size: 0.9em;
+        font-weight: 500;
+        text-align: center;
+        padding: 5px;
+        color: #777777;
+    }
+
+    q {
+        font-family: "Raleway", Helvetica, Arial, sans-serif;
+        font-size: 0.9em;
+        font-weight: 500;
+        color: #777777;
+    }
+
+    article {
+        width: 375px;
+        text-align: left;
+        padding-left: 10px;
+        margin-bottom: 5px;
+    }
+
+    nav {
+        position: absolute;
+        top: 65%;
+        left: 30%;
+    }
+
+}
