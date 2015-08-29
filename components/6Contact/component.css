@@ -15,7 +15,7 @@ body {
 h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
-    font-size: 31px;
+    font-size: 30px;
     text-align: left;
     color: #000;
     margin-bottom: 50px;
@@ -90,14 +90,14 @@ button {
     font-size: 16px;
     font-weight: bolder;
     width: 160px;
-    text-align: center;
     text-transform: uppercase;
     height: 53px;
     margin: 0 15px 0 0;
     padding: 0 56px 0 42px;
     border-radius: 26px;
     border: none;
-    background: #ED3A12 url(../../images/arrow.png) no-repeat 83% 49%;
+    background: #ED3A12 url(../../images/arrow.png) no-repeat 75% 50%;
+    background-size: 10%;
     text-decoration: none;
 }
 
@@ -110,4 +110,85 @@ button:hover{
     display: inline-block;
     text-decoration: none;
     transition: 0.4s;
+}
+
+@media screen and (max-width: 400px) {
+
+    section {
+        width: 100%;
+        height: 800px;
+    }
+
+    h2 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: bolder;
+        font-size: 30px;
+        text-align: left;
+        margin-bottom: 50px;
+        padding: 1%;
+    }
+
+    h4 {
+        font-family: "Roboto", Helvetica, Arial, sans-serif;
+        text-transform: uppercase;
+        font-size: 0.7em;
+        text-align: left;
+        width: 82%;
+        padding: 3%;
+        color: #000;
+    }
+
+    form {
+        width: 280px;
+        position: absolute;
+        top: 70%;
+        right: 18%;
+    }
+
+    textarea {
+        font-size: 13px;
+        width: 293px;
+        height: 200px;
+        line-height: 15px;
+        color: #989898;
+        margin: 20px 0 20px 0;
+        padding: 5px;
+        border: 1px solid #666666;
+    }
+
+    input[type="text"] {
+        width: 294px;
+        margin-right: 10px;
+        margin-bottom: 12px;
+        padding: 8px;
+    }
+
+    button {
+        font-size: 15px;
+        width: 120px;
+        margin: 0 15px 15px 0;
+        background: #ED3A12 url(../../images/arrow.png) no-repeat 83% 50%;
+        background-size: 10%;
+    }
+
+    button:hover{
+        font-size: 15px;
+        background-color: #66BB50;
+        transition: 0.4s;
+    }
+
+    aside {
+        width: 84%;
+        margin: 24px 0 0 50px;
+        float:left;
+        display: block;
+    }
+
+    p {
+        font-size: 0.9em;
+        font-weight: 500;
+        text-align: center;
+        color: #777777;
+    }
+
 }
