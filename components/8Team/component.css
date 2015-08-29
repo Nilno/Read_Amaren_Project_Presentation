@@ -54,3 +54,30 @@ section::after {
     display: table;
     clear: both;
 }
+
+@media screen and (max-width: 400px) {
+
+
+    h2 {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: bolder;
+        font-size: 28px;
+        text-align: center;
+        padding: 1%;
+    }
+
+    h4 {
+        color: #1CAC7E;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 1.2em;
+        text-align: left;
+        width: 82%;
+        padding: 3%;
+    }
+
+    #team article {
+        width: calc(1400px / 4);/*1400 / 4 = 350px*/
+        padding-left: 10px;
+        margin: 0 0 10px 35px;
+    }
+}

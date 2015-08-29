@@ -28,6 +28,7 @@ h2 {
 
 h4 {
     color: #FFF;
+    text-align: center;
     font-family: 'Play', sans-serif;
     text-transform: uppercase;
     font-weight: normal;
@@ -49,60 +50,58 @@ p {
     margin: 0 auto;
 }
 
-.first {
-    position: absolute;
-    top: 20%;
-    right: 51%;
+article:nth-of-type(1) {
+    position: relative;
     background-image: url("../../images/corn.png");
-    background-size: 600px 345px;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     text-align: center;
     font-family: 'Play', sans-serif;
     width: 580px;
     height: 270px;
+    margin: 2% auto;
     padding: 2rem;
 }
 
-.second {
-    position: absolute;
-    top: 20%;
-    right: 4.5%;
+article:nth-of-type(1) a{
+    margin-right: 170px;
+}
+
+article:nth-of-type(2) {
+    position: relative;
     background-image: url("../../images/hands.png");
-    background-size: 600px 270px;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     font-family: 'Play', sans-serif;
     width: 580px;
     height: 270px;
+    margin: 2% auto;
     padding: 2rem;
 }
 
-.third {
-    position: absolute;
-    top: 60.5%;
-    right: 51%;
+article:nth-of-type(3) {
+    position: relative;
     background-image: url("../../images/guy.png");
-    background-size: 600px 270px;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     font-family: 'Play', sans-serif;
     width: 580px;
     height: 270px;
+    margin: 2% auto;
     padding: 2rem;
-
 }
 
 
-.fourth {
-    position: absolute;
-    top: 60.5%;
-    right: 4.5%;
+article:nth-of-type(4) {
+    position: relative;
     background-image: url("../../images/field.png");
-    background-size: 600px 270px;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     font-family: 'Play', sans-serif;
     width: 580px;
     height: 270px;
     padding: 2rem;
-    margin: 0px;
+    margin: 2% auto;
 }
 
 a {
@@ -112,6 +111,8 @@ a {
     color: #FFF;
     padding: 50px;
     margin-top: 20px;
+    margin-left: 170px;
+    text-align: center;
 }
 
 a:hover {
@@ -119,4 +120,92 @@ a:hover {
     font-weight: bold;
     font-style: normal;
     color: #F9C701;
+}
+
+@media screen and (max-width: 400px) {
+
+
+    h2 {
+        width: 70%;
+        margin: 20px 40px;
+        padding: 1%;
+    }
+
+    h4 {
+
+        font-family: "Play", Helvetica, Arial, sans-serif;
+        font-size: 1.2em;
+        width: 82%;
+        padding: 0%;
+        margin: 0 -16%;
+    }
+}
+
+article:nth-of-type(1) {
+    position: relative;
+    background-image: url("../../images/corn.png");
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    width: 580px;
+    height: 270px;
+    margin: 0% 7%;
+    padding: 1rem;
+}
+
+article:nth-of-type(1) a{
+    margin-right: 50%;
+    margin-left: 0px;
+}
+
+p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 100;
+    margin: 0 0 -10px 0;
+    color: #FFF;
+    width: 48%;
+}
+
+article:nth-of-type(2) {
+    position: relative;
+    background-image: url("../../images/hands.png");
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    width: 580px;
+    height: 270px;
+    margin: 0% 7%;
+    padding: 1rem;
+}
+
+article:nth-of-type(3) {
+    position: relative;
+    background-image: url("../../images/guy.png");
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    width: 580px;
+    height: 270px;
+    margin: 0% 7%;
+    padding: 1rem;
+}
+
+article:nth-of-type(4) {
+    position: relative;
+    background-image: url("../../images/field.png");
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    width: 580px;
+    height: 270px;
+    margin: 0% 7%;
+    padding: 1rem;
+}
+
+a {
+    font-family: 'Play', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #FFF;
+    padding: 50px;
+    margin-top: 20px;
+    margin-left: 48px;
+    text-align: center;
 }

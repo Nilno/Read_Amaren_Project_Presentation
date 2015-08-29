@@ -174,10 +174,14 @@ button:hover {
     }
 
     form {
-        width: 280px;
+        width: 285px;
         position: absolute;
         top: 52.5%;
         right: 18%;
+    }
+
+    input[type="text"] {
+        margin-left: 8px;
     }
 }
 
