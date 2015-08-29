@@ -65,10 +65,18 @@ footer::after {
         height: 800px;
     }
 
+    h3 {
+        text-align: left;
+    }
+
     nav {
         width: 380px;
         padding-left: 10px;
         margin: 0 0 10px 0px;
+    }
+
+    li {
+        text-align: left;
     }
 
 }
