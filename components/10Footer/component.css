@@ -58,6 +58,14 @@ footer::after {
     clear: both;
 }
 
+@media (min-width: 650px) {
+    footer nav {
+        text-align: left;
+        width: calc(100% / 4);
+        float: left;
+    }
+}
+
 @media screen and (max-width: 400px) {
 
     section {
